@@ -19,7 +19,7 @@ html {
 }
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     box-sizing: border-box;
 }
 
@@ -67,4 +67,31 @@ body{
 .forthSection .forthSection-canalmatin .forthSection-canalmatin-icons {
     display: flex;
     gap: 2rem;
+}
+
+.fifthSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem;
+}
+
+.fifthSection .image {
+    width: 34rem;
+    height: 35rem;
+    border-radius: 0.1rem;
+}
+
+.date {
+    font-family: var(--font-family-green-text);
+    color: var(--couleur-actu-onglet);
+    line-height: 1.573rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.activity {
+    font-family: var(--font-family-grand-titre);
+    line-height: 3.12rem;
+    font-size: 2.4rem;
+    font-weight: 600;
 }
