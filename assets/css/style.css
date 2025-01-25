@@ -19,6 +19,8 @@ html {
 }
 
 body{
+    width: 100vw;
+    height: 100vh;
     overflow-x: hidden;
     box-sizing: border-box;
 }
@@ -94,4 +96,50 @@ body{
     line-height: 3.12rem;
     font-size: 2.4rem;
     font-weight: 600;
+}
+
+.sixthSection {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 0 6.5rem;
+}
+
+.sixthSection .canalmatin{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2.249rem;
+}
+
+.sixthSection h1{
+    font-size: 4.8rem;
+    font-weight: bold;
+    color: var(--palegreen);
+    line-height: 6.24rem;
+ }
+
+ .sixthSection p{
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--blackcolor);
+    line-height: 3.268rem;
+}
+
+.sixthSection img{
+    flex: 1;
+    width: 68.1rem;
+    height: 47.1;
+    border-radius: 2rem;
+}
+
+.sixthSection .canalmatin .icons {
+    width: 3.193rem;
+    height: 3.648rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.sixthSection .substitude {
+    display: none;
 }
