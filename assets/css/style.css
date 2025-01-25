@@ -8,12 +8,55 @@
 :root{
     --couleur-bouton: #618264;
     --couleur-actu-onglet: #79AC78;
+    --couleur-texte:#000E01;
     --font-size-page:10px;
     --font-family-green-text:"Inter", serif;
     --font-family-grand-titre:"IBM Plex Sans Hebrew", serif;
     --font-family-text:"Open Sans", serif;
+
+    
 }
 body{
     overflow-x: hidden;
     font-size: var(--font-size-page);
+}
+header{
+margin: 0rem 1.5rem;
+}
+.elementnav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.elementlistnavbar{
+    display: flex;
+    gap: 4rem;
+    font-size: 1rem;
+    list-style: none;
+    padding: 2rem;
+    font-family: var(--font-family-text);
+}
+a{
+    text-decoration: none;
+    color: var(--couleur-texte);
+}
+.lien{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: #79AC78; 
+    cursor: pointer;
+    
+}
+.imagnav{
+    width: 10rem;
+    height: 6rem;
+}
+button{
+    background-color: var(--couleur-bouton);
+    width: 8rem;
+    height: 3rem;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    border-radius:1.5rem;
+    color: aliceblue;
 }
