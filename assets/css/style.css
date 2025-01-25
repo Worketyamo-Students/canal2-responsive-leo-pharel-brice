@@ -7,11 +7,11 @@
 }
 
 :root{
-    --Hebrew-fontType: "Poppins", serif;
-    --Opensans-fontType: "Poppins", serif;
-    --textColor: #618264;
-    --primaryCOlor: #79AC78;
-    --SecondaryBlackColor: #000E01;
+    --couleur-bouton: #618264;
+    --couleur-actu-onglet: #79AC78;
+    --font-family-green-text:"Inter", serif;
+    --font-family-grand-titre:"IBM Plex Sans Hebrew", serif;
+    --font-family-text:"Open Sans", serif;
 }
 
 html {
@@ -23,12 +23,48 @@ body{
     box-sizing: border-box;
 }
 
+.alone {
+    font-weight: 600;
+    font-size: 3.3rem;
+    color: var(--font-family-grand-titre);
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
 .forthSection {
     display: flex;
-    flex: 1;
+    align-items: center;
+    margin-left: 6.5rem;
+    gap: 4.4rem;
 }
 .forthSection > img {
     width: 71.8rem;
     height: 47.1rem;
     border-radius: 2rem;
+}
+
+.forthSection h1 {
+    font-size: 4.8rem;
+    font-weight: bold;
+    color: var(--font-family-grand-titre);
+    line-height: 6.24rem;
+}
+
+.forthSection p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--font-family-text);
+    line-height: 3.268rem;
+}
+
+.forthSection .forthSection-canalmatin {
+    display: flex;
+    flex-direction: column;
+    gap: 4.0rem;
+}
+
+.forthSection .forthSection-canalmatin .forthSection-canalmatin-icons {
+    display: flex;
+    gap: 2rem;
 }
