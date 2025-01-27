@@ -8,12 +8,106 @@
 :root{
     --couleur-bouton: #618264;
     --couleur-actu-onglet: #79AC78;
+    --couleur-texte:#000E01;
     --font-size-page:10px;
     --font-family-green-text:"Inter", serif;
     --font-family-grand-titre:"IBM Plex Sans Hebrew", serif;
     --font-family-text:"Open Sans", serif;
+
+    
 }
 body{
     overflow-x: hidden;
     font-size: var(--font-size-page);
+}
+header{
+margin: 0rem 1.5rem;
+}
+.elementnav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.elementlistnavbar{
+    display: flex;
+    gap: 4rem;
+    font-size: 1rem;
+    list-style: none;
+    padding: 2rem;
+    font-family: var(--font-family-text);
+}
+a{
+    text-decoration: none;
+    color: var(--couleur-texte);
+}
+.lien{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: #79AC78; 
+    cursor: pointer;
+    
+}
+.imagnav{
+    width: 10rem;
+    height: 6rem;
+}
+button{
+    background-color: var(--couleur-bouton);
+    width: 8.5rem;
+    height: 3.2rem;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    border-radius:1.5rem;
+    color: aliceblue;
+    cursor: pointer;
+    font-family: var(--font-family-green-text);
+    box-shadow: 1px,1px;
+    
+}
+/* ma premiere section fafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+.premieredivsection1{
+    display: flex;
+    margin: 0rem 2rem;
+    gap: 2rem;
+}
+.nganou{
+    display: flex;
+    flex: 2;
+    border-radius: 2rem;
+    background-image: url(/assets/images/francis.svg);
+    width: 20rem;
+    height: 35rem;
+    padding: 2rem;
+}
+.div2section1{
+    flex: 1;
+    
+}
+.textettitre{
+    flex-direction: column;
+}
+.text1{
+    display: flex;
+    gap: 1rem;
+    
+}
+h3{
+    font-size: 1rem;
+    margin-top: 1rem;
+    
+}
+p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.text2{
+    display: flex;
+    gap: 1rem;
+}
+.text3{
+    display: flex;
+    gap: 1rem;
+}
+.mince{
+    flex-direction: column;
 }
