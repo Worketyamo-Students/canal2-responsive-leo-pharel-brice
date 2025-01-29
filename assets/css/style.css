@@ -279,11 +279,12 @@ p {
     font-weight: 600;
 }
 .actu_sm>.img_sm{
-    width: 92%;
+    width: 93%;
     height: 58rem;
     background-image: url(../images/img_sm.svg);
-    background-size:  no-repeat cover 100%;
-}
+    background-size:cover;
+    background-repeat: no-repeat;
+}       
 .img_lorem_ipsun{
     display: flex;
     justify-content: space-between;
