@@ -119,6 +119,27 @@ p {
 }
 /* fin de ma premiere section fafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
 .premieredivsection2{
-    display: flex;
+   display: flex;
+  justify-content: space-between; 
+  padding: 4rem;
 }
+h6{
+  padding-left: 0.5rem;
+  color: var(--couleur-actu-onglet);
+  margin-top: 0.5rem;
+}
+.textsection2{
+  font-family:var(--font-family-green-text);
+  color: var(--couleur-texte);
+  font-size:0.9rem;
+  padding-left: 0.3rem
+  
+
+}
+.images2{
+  width: 20rem;
+  height: 20rem; 
+  border-radius: rem;
+}
+/* FIN DE MA DEUXIEME SECTION FAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 
