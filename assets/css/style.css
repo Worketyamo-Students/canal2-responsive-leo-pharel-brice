@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Galada&family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
@@ -17,9 +18,15 @@
 body {
   overflow-x: hidden;
   font-size: var(--font-size-page);
+    width: 100vw;
+    height: 100%;
 }
-header {
-  margin: 0rem 1.5rem;
+html{
+    overflow-x: hidden;
+    font-size: var(--font-size-page);
+}
+header{
+margin: 0rem 1.5rem;
 }
 .elementnav {
   display: flex;
@@ -165,4 +172,195 @@ h1{
   margin-top: 3rem;
   border-radius: 1rem;
 }
+
+/* brice */
+.alone {
+  font-weight: 600;
+  font-size: 3.3rem;
+  color: var(--font-family-grand-titre);
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.forthSection {
+  display: flex;
+  align-items: center;
+  margin-left: 6.5rem;
+  gap: 4.4rem;
+}
+.forthSection > img {
+  width: 71.8rem;
+  height: 47.1rem;
+  border-radius: 2rem;
+}
+
+.forthSection h1 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: var(--font-family-grand-titre);
+  line-height: 6.24rem;
+}
+
+.forthSection p {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--font-family-text);
+  line-height: 3.268rem;
+}
+
+.forthSection .forthSection-canalmatin {
+  display: flex;
+  flex-direction: column;
+  gap: 4.0rem;
+}
+
+.forthSection .forthSection-canalmatin .forthSection-canalmatin-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.fifthSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem;
+}
+
+.fifthSection .image {
+  width: 34rem;
+  height: 35rem;
+  border-radius: 0.1rem;
+}
+
+.date {
+  font-family: var(--font-family-green-text);
+  color: var(--couleur-actu-onglet);
+  line-height: 1.573rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.activity {
+  font-family: var(--font-family-grand-titre);
+  line-height: 3.12rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.sixthSection {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin: 0 6.5rem;
+}
+
+.sixthSection .canalmatin{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2.249rem;
+}
+
+.sixthSection h1{
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: var(--palegreen);
+  line-height: 6.24rem;
+}
+
+.sixthSection p{
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--blackcolor);
+  line-height: 3.268rem;
+}
+
+.sixthSection img{
+  flex: 1;
+  width: 68.1rem;
+  height: 47.1;
+  border-radius: 2rem;
+}
+
+.sixthSection .canalmatin .icons {
+  width: 3.193rem;
+  height: 3.648rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.sixthSection .substitude {
+  display: none;
+}
+
+/* leo */
+.actu_sm{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100vw; 
+}
+.text_bar{
+    width: 7%;
+    display: flex;                         
+    gap: 1.7rem;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.text_bar> div{
+    width: 1.3rem;
+    height: 5rem;
+    background-color: var(--couleur-bouton);
+
+}
+.text_bar>span{
+    color: var(--couleur-bouton);
+    font-family: var(--font-family-grand-titre);
+    font-size: 4.8rem;
+    font-weight: 600;
+}
+.actu_sm>.img_sm{
+    width: 93%;
+    height: 58rem;
+    background-image: url(../images/img_sm.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}       
+.img_lorem_ipsun{
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 5rem 10rem 5rem;
+}
+.img_lorem_ipsun>div>p{
+    color: var(--couleur-bouton);
+    font-style: italic;
+}
+.last_part{
+    background-color: var(--couleur-bouton);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 5rem;
+    gap: 2rem;
+    height: 40rem;
+}
+.last_image{
+    width: 50rem;
+    height: 50rem;
+    display: flex;  
+}
+.last_part>div{
+   display: flex;
+   gap: 6rem;
+}
+.last_part>div>img{
+    align-items: end;
+    display: flex;
+}
+
 

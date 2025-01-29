@@ -1,0 +1,56 @@
+.actu_sm{
+    flex-direction: column;
+    gap: 2.6rem;
+}
+.text_bar{
+    width: 100vw;
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+    justify-content: start;
+    gap: 2rem;
+}
+.text_bar>.green_bar1{
+   width: 1.2rem ;
+   height: 4rem;
+   background-color: var(--couleur-bouton);
+}
+.text_bar>.green_bar2{
+    display: none;
+}
+.text_bar>span{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.actu_sm>.img_sm{
+    background-image: url(../images/img_sm_mediaQ.svg);
+    width: 100%;
+    align-items: start;
+    justify-content: start;
+    height: 24rem;
+    display: flex;
+}
+.img_lorem_ipsun{
+    padding: 3rem 1.3rem 3rem 1.3rem;
+    justify-content: center;
+}
+.img_lorem_ipsun_none{
+    display: none;
+}
+.last_part{
+    height: 25.4rem;
+}
+.last_part>div{
+    width: 16rem;
+    height: 2.6rem;
+    justify-content: center;
+    gap: 2.45rem;
+}
+.last_image{
+    width: 15rem;
+    height: 10.6rem;
+}
+.last_part>div>img{
+    width: 2.5rem;
+    height:2.5rem ;
+
+}
