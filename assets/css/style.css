@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -22,7 +23,6 @@ body{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    box-sizing: border-box;
 }
 
 .alone {
@@ -143,3 +143,4 @@ body{
 .sixthSection .substitude {
     display: none;
 }
+
