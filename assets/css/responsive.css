@@ -4,7 +4,7 @@
     }
 
     .alone{
-        font-size: 2.5rem;
+        font-size: 3rem;
         align-items: center;
         text-align: center;
     }
@@ -30,6 +30,8 @@
         font-size: 1.4rem;
         line-height: 1.907rem;
         font-weight: 400;
+        margin-left: 2.2rem;
+        margin-right: 3.6rem;
     }
 
     .forthSection .forthSection-canalmatin{
@@ -42,5 +44,29 @@
     .forthSection .forthSection-canalmatin .forthSection-canalmatin-icons {
         width: 2.197rem;
         height: 3.3rem;
+    }
+
+    .fifthSection {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .fifthSection .image {
+        width: 16.2rem;
+        height: 15rem;
+        border-radius: 0;
+    }
+
+    .date {
+        line-height: 1.573rem;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.3rem;
+    }
+    
+    .activity {
+        line-height: 2.08rem;
+        font-size: 1.6rem;
+        font-weight: 600;
     }
 }
