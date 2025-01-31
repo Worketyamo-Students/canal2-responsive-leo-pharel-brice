@@ -1,7 +1,24 @@
 
-    body {
+body {
        overflow-x: hidden;
-    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -69,12 +86,6 @@
     font-size: 1.6rem;
     font-weight: 600;
 }
-
-
-
-
-
-
 .sixthSection {
     display: flex;
     flex-direction: column-reverse;
@@ -114,34 +125,6 @@
     width: 2.197rem;
     height: 3.3rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    /* leo */
 .actu_sm{
     flex-direction: column;
