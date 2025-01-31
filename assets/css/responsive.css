@@ -2,9 +2,6 @@
 body {
      overflow-x: hidden;
 }
-
-
-
     nav{
         margin: 0;
         display: flex;
@@ -190,34 +187,6 @@ body {
     width: 2.197rem;
     height: 3.3rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    /* leo */
 .actu_sm{
     flex-direction: column;
