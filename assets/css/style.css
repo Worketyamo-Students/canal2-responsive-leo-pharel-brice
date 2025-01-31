@@ -127,7 +127,51 @@ p {
 }
 /* fin de ma premiere section fafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
 .premieredivsection2{
-    display: flex;
+   display: flex;
+  justify-content: space-between; 
+  padding: 4rem;
+}
+h6{
+  padding-left: 0.5rem;
+  color: var(--couleur-actu-onglet);
+  margin-top: 0.5rem;
+}
+.textsection2{
+  font-family:var(--font-family-green-text);
+  color: var(--couleur-texte);
+  font-size:0.9rem;
+  padding-left: 0.3rem
+  
+
+}
+.images2{
+  width: 20rem;
+  height: 20rem; 
+  border-radius: rem;
+}
+/* FIN DE MA DEUXIEME SECTION FAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+.section3{
+  justify-items: center;
+  /* padding: 3rem; */
+  width: 100%;
+  
+}
+h1{
+  font-size: 2rem;
+  color: var(--couleur-texte);
+  font-family: var(--font-family-grand-titre);
+}
+.iframe{
+ width: 100%;
+  height: 100%; 
+  display: flex;
+  justify-content: center;
+}
+.video{
+  width: 70rem;
+  height: 25rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
 }
 
 
