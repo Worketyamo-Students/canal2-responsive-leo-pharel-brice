@@ -1,79 +1,148 @@
-@media screen and (max-width: 430px) {
+
     body {
        overflow-x: hidden;
     }
 
-    .alone{
-        font-size: 3rem;
-        align-items: center;
-        text-align: center;
-    }
-
-    .forthSection {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .forthSection > img {
-        width: 37.2rem;
-        height: 21.9rem;
-        border-radius: 0;
-    }
-    .forthSection h1 {
-        font-size: 3.2rem;
-        font-weight: 600;
-        line-height: 4.16rem;
-    }
-
-    .forthSection p {
-        font-size: 1.4rem;
-        line-height: 1.907rem;
-        font-weight: 400;
-        margin-left: 2.2rem;
-        margin-right: 3.6rem;
-    }
-
-    .forthSection .forthSection-canalmatin{
-        display: flex;
-        gap: 1rem;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .forthSection .forthSection-canalmatin .forthSection-canalmatin-icons {
-        width: 2.197rem;
-        height: 3.3rem;
-    }
-
-    .fifthSection {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .fifthSection .image {
-        width: 16.2rem;
-        height: 15rem;
-        border-radius: 0;
-    }
-
-    .date {
-        line-height: 1.573rem;
-        font-style: italic;
-        font-weight: 400;
-        font-size: 1.3rem;
-    }
-    
-    .activity {
-        line-height: 2.08rem;
-        font-size: 1.6rem;
-        font-weight: 600;
-    }
 
 
 
 
-    
+/* brice */
+.alone{
+    display: none;
+}
+.with{
+    display: flex;
+    align-items: center;    
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+}
+.forthSection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 0;
+    margin-bottom: 7rem;
+    margin-top: 3.6rem;
+    margin-right: 2rem;
+}
+.forthSection > img {
+    width: 37.2rem;
+    height: 21.9rem;
+    border-radius: 0rem;
+}
+.forthSection-canalmatin> h1 {
+    font-size: 3.2rem;
+}
+.forthSection p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.forthSection .forthSection-canalmatin{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.forthSection .forthSection-canalmatin .forthSection-canalmatin-icons {
+    width: 2.197rem;
+    height: 3.3rem;
+}
+.fifthSection {
+    gap: 5.3rem;
+    justify-content: center;
+}
+#none{
+    display: none;
+}
+
+.fifthSection .image {
+    width: 16.2rem;
+    height: 15rem;
+    border-radius: 0;
+}
+.date {
+    font-size: 1.3rem;
+}
+
+.activity {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.sixthSection {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    margin: 0 0;
+    margin-bottom: 7rem;
+    margin-top: 3.6rem;
+    margin-right: 2rem;
+}
+.sixthSection > img {
+    width: 37.2rem;
+    height: 21.9rem;
+    border-radius: 0rem;
+    align-self: start;
+}
+#rest{
+    display: none;
+}
+.flex{
+    display: flex;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--couleur-bouton);
+    font-family: var(--font-family-grand-titre);
+}
+.forthSection-canalmatin p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.sixthSection .forthSection-canalmatin{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.forthSection-canalmatin-icons {
+    width: 2.197rem;
+    height: 3.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* leo */
 .actu_sm{
     flex-direction: column;
     gap: 2.6rem;
@@ -84,6 +153,7 @@
     transform: rotate(0deg);
     justify-content: start;
     gap: 2rem;
+    padding-left: 1.2rem;
 }
 .text_bar>.green_bar1{
    width: 1.2rem ;

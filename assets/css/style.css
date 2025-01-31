@@ -130,21 +130,33 @@ p {
     display: flex;
 }
 
+
+
 /* brice */
 .alone {
   font-weight: 600;
-  font-size: 3.3rem;
-  color: var(--font-family-grand-titre);
-  margin-top: 5rem;
-  margin-bottom: 4rem;
+  font-size: 4.8rem;
+  margin-top: 9rem;
+  margin-bottom: 12rem;
   text-align: center;
+  font-family: var(--font-family-grand-titre);
+}
+.with{
+  display: none;
+  font-weight: 600;
+  font-size: 4.8rem;
+  margin-top: 9rem;
+  margin-bottom: 12rem;
+  text-align: center;
+  font-family: var(--font-family-grand-titre);
 }
 
 .forthSection {
   display: flex;
   align-items: center;
-  margin-left: 6.5rem;
+  margin: 0 6.5rem;
   gap: 4.4rem;
+  margin-bottom: 17rem;
 }
 .forthSection > img {
   width: 71.8rem;
@@ -152,18 +164,18 @@ p {
   border-radius: 2rem;
 }
 
-.forthSection h1 {
+.forthSection-canalmatin>h1 {
   font-size: 4.8rem;
-  font-weight: bold;
-  color: var(--font-family-grand-titre);
-  line-height: 6.24rem;
+  font-weight: 600;
+  color: var(--couleur-bouton);
+  font-family: var(--font-family-grand-titre);
+
 }
 
 .forthSection p {
   font-size: 2.4rem;
   font-weight: 400;
   color: var(--font-family-text);
-  line-height: 3.268rem;
 }
 
 .forthSection .forthSection-canalmatin {
@@ -177,10 +189,23 @@ p {
   gap: 2rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .fifthSection {
   display: flex;
   justify-content: space-between;
-  padding: 6rem;
+  padding: 0rem 6rem;
+  margin-bottom: 17rem;
 }
 
 .fifthSection .image {
@@ -192,63 +217,80 @@ p {
 .date {
   font-family: var(--font-family-green-text);
   color: var(--couleur-actu-onglet);
-  line-height: 1.573rem;
   font-style: italic;
   font-weight: 400;
 }
 
 .activity {
   font-family: var(--font-family-grand-titre);
-  line-height: 3.12rem;
   font-size: 2.4rem;
   font-weight: 600;
 }
 
+
+
+
+
+
+
 .sixthSection {
   display: flex;
-  flex: 1;
   align-items: center;
+  justify-content: space-between;
   margin: 0 6.5rem;
+  gap: 4.4rem;
+  margin-bottom: 17rem;
 }
-
-.sixthSection .canalmatin{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  gap: 2.249rem;
-}
-
-.sixthSection h1{
-  font-size: 4.8rem;
-  font-weight: bold;
-  color: var(--palegreen);
-  line-height: 6.24rem;
-}
-
-.sixthSection p{
-  font-size: 2.4rem;
-  font-weight: 400;
-  color: var(--blackcolor);
-  line-height: 3.268rem;
-}
-
-.sixthSection img{
-  flex: 1;
-  width: 68.1rem;
-  height: 47.1;
+.sixthSection > img {
+  width: 71.8rem;
+  height: 47.1rem;
   border-radius: 2rem;
 }
 
-.sixthSection .canalmatin .icons {
-  width: 3.193rem;
-  height: 3.648rem;
+.forthSection-canalmatin>#rest {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: var(--couleur-bouton);
+  font-family: var(--font-family-grand-titre);
+}
+.flex{
+  display: none;
+}
+
+.forthSection-canalmatin p {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--font-family-text);
+}
+
+.sixthSection .forthSection-canalmatin {
+  display: flex;
+  flex-direction: column;
+  gap: 4.0rem;
+}
+
+.forthSection-canalmatin-icons {
   display: flex;
   gap: 2rem;
 }
 
-.sixthSection .substitude {
-  display: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* leo */
 .actu_sm{
