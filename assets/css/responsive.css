@@ -1,3 +1,79 @@
+@media screen and (max-width: 430px) {
+    body {
+       overflow-x: hidden;
+    }
+
+    .alone{
+        font-size: 3rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .forthSection {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .forthSection > img {
+        width: 37.2rem;
+        height: 21.9rem;
+        border-radius: 0;
+    }
+    .forthSection h1 {
+        font-size: 3.2rem;
+        font-weight: 600;
+        line-height: 4.16rem;
+    }
+
+    .forthSection p {
+        font-size: 1.4rem;
+        line-height: 1.907rem;
+        font-weight: 400;
+        margin-left: 2.2rem;
+        margin-right: 3.6rem;
+    }
+
+    .forthSection .forthSection-canalmatin{
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .forthSection .forthSection-canalmatin .forthSection-canalmatin-icons {
+        width: 2.197rem;
+        height: 3.3rem;
+    }
+
+    .fifthSection {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .fifthSection .image {
+        width: 16.2rem;
+        height: 15rem;
+        border-radius: 0;
+    }
+
+    .date {
+        line-height: 1.573rem;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.3rem;
+    }
+    
+    .activity {
+        line-height: 2.08rem;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+
+
+
+    
 .actu_sm{
     flex-direction: column;
     gap: 2.6rem;
