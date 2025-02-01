@@ -265,6 +265,23 @@ font-weight: 600;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* brice */
 .alone {
   font-weight: 600;
@@ -358,7 +375,6 @@ font-weight: 600;
   height: 47.1rem;
   border-radius: 2rem;
 }
-
 .forthSection-canalmatin>#rest {
   font-size: 4.8rem;
   font-weight: 600;
@@ -368,19 +384,16 @@ font-weight: 600;
 .flex{
   display: none;
 }
-
 .forthSection-canalmatin p {
   font-size: 2.4rem;
   font-weight: 400;
   color: var(--font-family-text);
 }
-
 .sixthSection .forthSection-canalmatin {
   display: flex;
   flex-direction: column;
   gap: 4.0rem;
 }
-
 .forthSection-canalmatin-icons {
   display: flex;
   gap: 2rem;
