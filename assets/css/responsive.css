@@ -78,8 +78,7 @@ body {
        
     }
     hr{
-        border-top-style: solid;
-        border: 2px;
+        border: solid black .1rem;
     }
     .bloc3>div>iframe{
         display: flex;

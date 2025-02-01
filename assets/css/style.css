@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Galada&family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 *{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 :root {
   --couleur-bouton: #618264;
@@ -16,16 +16,15 @@
   --font-family-grand-titre: "IBM Plex Sans Hebrew", serif;
   --font-family-text: "Open Sans", serif;
 }
+html{
+  font-size: var(--font-size-page);
+}
 body {
   overflow-x: hidden;
-  font-size: var(--font-size-page);
-    width: 100vw;
-    height: 100%;
+  width: 100vw;
+  height: 100%;
 }
-html{
-    overflow-x: hidden;
-    font-size: var(--font-size-page);
-}
+
 nav{
   margin: 1rem 4rem 0rem 4rem;
   display: flex;
@@ -72,17 +71,66 @@ nav>button{
   display: none;
 }
 .bloc1{
-  gap: 4rem;
+  gap: 6.4rem;
   display: flex;
   padding: 5rem 4rem;
 }
-.bloc1>img{
-  flex: 2;
+.description_image{
+  flex:2;
+  width: 100%;
+  height: 62.2rem;
+  background: linear-gradient(to bottom, #00000000,#000000F2), url(../images/francis.svg) center;
+  background-size: cover;
+  border-radius: 2rem;
 }
-/* kddddddddddddddddddddddddddkdkdkdkkdkdkdkdkdkdkdkdkdkdkddkdkkdkd */
+.description_image_text_sur_image{
+  display: flex;
+  gap:2.5rem;
+}
+.description_image_text_sur_image>.green_bar{
+  width: 1.5rem;
+  height: 14.2rem;
+  background-color: var(--couleur-bouton);
+  border-radius: 2.3rem;
+}
+.green_bar.text_bar1{
+  display: flex;
+  gap:1.7rem;
+}
+.text_bar1>h1{
+  color: white;
+  font-weight: 700;
+  font-size: 4rem;
+  font-family: var(--font-family-grand-titre);
+  width: 67.4rem;
+  height: 10rem;
+
+
+
+}
+.text_bar1>p{
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: var(--font-family-grand-titre);
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 .list_image{
   display: flex;
   justify-content: space-between;
+  gap: 1.68rem;
   flex: 1;
   flex-direction: column;
 }
@@ -157,11 +205,16 @@ nav>button{
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 4rem;
  
 }
 .bloc3>h1{
-  text-align: center;
+  text-align: start;
  padding: 2rem 0rem;
+ font-family: var(--font-family-grand-titre);
+font-size: 4.8rem;
+font-weight: 600;
+
 }
 .bloc3>div{
   display: flex; 
