@@ -79,12 +79,41 @@ body {
     }
     hr{
         border: solid black .1rem;
+    }   
+    .bloc2{
+        width: 100vw;
+        height: 31.2rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .bloc3{
+        gap: 2.3rem;
     }
     .bloc3>div>iframe{
         display: flex;
         width: 38rem;
         height: 22.2rem;
         justify-content: center;
+    }
+    .bloc3>h1{
+        padding-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+
     }
 
 
@@ -97,6 +126,7 @@ body {
     align-items: center;    
     font-size: 2rem;
     margin-bottom: 1.3rem;
+    margin-top: 3.6rem;
 }
 .forthSection {
     display: flex;
